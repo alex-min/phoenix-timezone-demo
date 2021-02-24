@@ -1,0 +1,7 @@
+<ul>
+    <li>Current language locale: <%= @locale %></li>
+    <li>Current timezone offset: <%= @timezone %></li>
+    <li>Rendering a date in the locale timezone and language:
+        <%= to_datestring("2021-02-24T19:50:31.550Z", @locale, @timezone) %>
+    </li>
+</ul>
